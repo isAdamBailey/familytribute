@@ -8,10 +8,6 @@ return [
     'siteName' => 'HistoryFam',
     'siteDescription' => 'Display your family\'s history',
 
-    // Algolia DocSearch credentials
-    'docsearchApiKey' => '',
-    'docsearchIndexName' => '',
-
     // navigation menu
     'navigation' => require_once('navigation.php'),
 
