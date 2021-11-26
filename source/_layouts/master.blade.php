@@ -16,10 +16,6 @@
         <meta name="twitter:image:alt" content="{{ $page->siteName }}">
         <meta name="twitter:card" content="summary_large_image">
 
-        @if ($page->docsearchApiKey && $page->docsearchIndexName)
-            <meta name="generator" content="tighten_jigsaw_doc">
-        @endif
-
         <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">
@@ -41,10 +37,6 @@
 
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-
-        @if ($page->docsearchApiKey && $page->docsearchIndexName)
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
-        @endif
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
@@ -56,12 +48,6 @@
 
                         <h1 class="text-lg md:text-2xl text-blue-900 font-semibold hover:text-blue-600 my-0 pr-4">{{ $page->siteName }}</h1>
                     </a>
-                </div>
-
-                <div class="flex flex-1 justify-end items-center text-right md:pl-10">
-                    @if ($page->docsearchApiKey && $page->docsearchIndexName)
-                        @include('_nav.search-input')
-                    @endif
                 </div>
             </div>
 
@@ -79,12 +65,7 @@
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center">
                 <li class="md:mr-2">
-                    &copy; <a href="https://tighten.co" title="Tighten website">Tighten</a> {{ date('Y') }}.
-                </li>
-
-                <li>
-                    Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
-                    and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
+                    &copy; <a href="https://adambailey.io" title="Tighten website">Adam Bailey</a> {{ date('Y') }}
                 </li>
             </ul>
         </footer>

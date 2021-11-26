@@ -11,7 +11,7 @@
             <p class="text-lg">History history. <br class="hidden sm:block">History history history.</p>
 
             <div class="flex my-10">
-                <a href="/docs/getting-started" title="{{ $page->siteName }} getting started" class="bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded mr-4 py-2 px-6">Get Started</a>
+                <a href="/docs/getting-started" title="{{ $page->siteName }} getting started" class="bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded mr-4 py-2 px-6">Learn More</a>
             </div>
         </div>
 
