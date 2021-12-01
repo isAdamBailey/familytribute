@@ -11,7 +11,7 @@
             <p class="text-lg">For once, <br class="hidden sm:block">and for all.</p>
 
             <div class="flex my-10">
-                <a href="/docs/getting-started" title="Learn more about {{ $page->siteName }}">
+                <a href="/docs/welcome" title="Learn more about {{ $page->siteName }}">
                     <x-button label="Learn More"/>
                 </a>
             </div>

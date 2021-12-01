@@ -45,9 +45,9 @@
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <img class="h-8 md:h-10 mr-3" src="/assets/img/undraw_picture_k-52-w.svg" alt="{{ $page->siteName }} logo" />
+                        <img class="w-20 mr-3" src="/assets/img/undraw_picture_k-52-w.svg" alt="{{ $page->siteName }} logo" />
 
-                        <h1 class="text-lg md:text-2xl text-purple-900 font-semibold hover:text-purple-600 my-0 pr-4">{{ $page->siteName }}</h1>
+                        <h1 class="text-2xl md:text-4xl text-purple-900 font-semibold hover:text-purple-600 my-0 pr-4">{{ $page->siteName }}</h1>
                     </a>
                 </div>
             </div>

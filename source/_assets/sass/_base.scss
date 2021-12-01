@@ -13,7 +13,7 @@ a {
 }
 
 blockquote {
-    @apply .border-purple-400;
+    @apply .border-purple-600;
     @apply .border-l-4;
     @apply .font-normal;
     @apply .italic;
@@ -138,6 +138,6 @@ pre {
 }
 
 ::selection {
-    @apply .bg-blue-500;
+    @apply .bg-purple-500;
     @apply .text-white;
 }

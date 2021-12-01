@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'Getting Started' => [
-        'url' => 'docs/getting-started',
+    'Welcome' => [
+        'url' => 'docs/welcome',
         'children' => [
-            'Customizing Your Site' => 'docs/customizing-your-site',
+            'Hansen History Website' => 'https://hansenhistory.adambailey.io',
+            'Adam Bailey\'s Portfolio' => 'https://adambailey.io',
         ],
-    ],
-    'Adam Bailey\'s Portfolio' => 'https://adambailey.io',
+    ]
 ];
