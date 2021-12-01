@@ -5,12 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="{{ $page->description ?? $page->siteDescription }}">
+        <meta name="keywords" content="{{ $page->keywords ?? $page->siteKeywords }}">
 
         <meta property="og:site_name" content="{{ $page->siteName }}"/>
         <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}"/>
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
-        <meta property="og:image" content="/assets/img/logo.png"/>
+        <meta property="og:image" content="/assets/img/undraw_add_information_j2wg.svg"/>
         <meta property="og:type" content="website"/>
 
         <meta name="twitter:image:alt" content="{{ $page->siteName }}">
@@ -44,9 +45,9 @@
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
+                        <img class="h-8 md:h-10 mr-3" src="/assets/img/undraw_picture_k-52-w.svg" alt="{{ $page->siteName }} logo" />
 
-                        <h1 class="text-lg md:text-2xl text-blue-900 font-semibold hover:text-blue-600 my-0 pr-4">{{ $page->siteName }}</h1>
+                        <h1 class="text-lg md:text-2xl text-purple-900 font-semibold hover:text-purple-600 my-0 pr-4">{{ $page->siteName }}</h1>
                     </a>
                 </div>
             </div>
@@ -65,7 +66,7 @@
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center">
                 <li class="md:mr-2">
-                    &copy; <a href="https://adambailey.io" title="Tighten website">Adam Bailey</a> {{ date('Y') }}
+                    &copy; <a href="https://adambailey.io" title="Adam Bailey's website">Adam Bailey</a> {{ date('Y') }}
                 </li>
             </ul>
         </footer>

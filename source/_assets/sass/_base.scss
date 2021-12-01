@@ -5,15 +5,15 @@ body {
 a {
     @apply .font-semibold;
     @apply .no-underline;
-    @apply .text-blue-600;
+    @apply .text-purple-600;
 
     &:hover {
-        @apply .text-blue-800;
+        @apply .text-purple-800;
     }
 }
 
 blockquote {
-    @apply .border-blue-400;
+    @apply .border-purple-400;
     @apply .border-l-4;
     @apply .font-normal;
     @apply .italic;
@@ -91,7 +91,7 @@ h6 {
 
 hr {
     @apply .border-b;
-    @apply .border-blue-200;
+    @apply .border-purple-200;
     @apply .my-12;
     @apply .rounded-full;
 }

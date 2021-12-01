@@ -6,7 +6,8 @@ return [
     'baseUrl' => '',
     'production' => false,
     'siteName' => 'HistoryFam',
-    'siteDescription' => 'Display your family\'s history',
+    'siteDescription' => 'Add your deceased family\'s stories and pictures to a place you can sort, connect and share.',
+    'siteKeywords' => 'obituaries,history,pictures,stories,family history',
 
     // navigation menu
     'navigation' => require_once('navigation.php'),
