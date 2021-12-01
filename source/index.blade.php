@@ -12,12 +12,12 @@
 
             <div class="flex my-10">
                 <a href="/docs/welcome" title="Learn more about {{ $page->siteName }}">
-                    <x-button label="Learn More"/>
+                    <x-button label="Learn more about us"/>
                 </a>
             </div>
         </div>
 
-        <img src="/assets/img/undraw_add_information_j2wg.svg" alt="{{ $page->siteName }} large logo" class="w-1/2 mx-auto mb-6 lg:mb-0 ">
+        <img src="/assets/img/undraw_add_information_j2wg.svg" alt="{{ $page->siteName }} large logo" class="w-full md:w-1/2 mx-auto mb-6 lg:mb-0 ">
     </div>
 
     <hr class="block my-8 border lg:hidden">
@@ -32,7 +32,7 @@
         </div>
 
         <div class="mb-8 mx-3 px-2 md:w-1/3">
-            <img src="/assets/img/undraw_book_lover_re_rwjy.svg" class="w-1/2" alt="terminal icon">
+            <img src="/assets/img/undraw_book_lover_re_rwjy.svg" class="w-1/2" alt="stories icon">
 
             <h3 class="text-2xl text-purple-900 mb-0">Share <br>your families stories</h3>
 

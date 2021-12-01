@@ -10,8 +10,6 @@ module.exports = {
     options: {
       whitelist: [
         /language/,
-        /hljs/,
-        /algolia/,
       ],
     },
   },
