@@ -27,7 +27,7 @@ Sometimes two individuals have very different memories of how something happened
 "worked out" once you've shared details about a relative. That's great! Let them register to the site and make the 
 corrections themselves. 
 
-From within the HistoryFam dashboard, you can add new pictures, stories, and obituaries. Add as many as you want.
+From within the FamilyTribute dashboard, you can add new pictures, stories, and obituaries. Add as many as you want.
 You can link the pictures and stories right to a person with an obituary. Link as many people as you want in one
 picture, it will show for all their "pages".
 
@@ -37,5 +37,5 @@ how to write software at the time, and used sharing the history as means to disp
 to get a job. I created a few variations of the Hansen History website (linked on the sidebar).
 This is a work of honor and love for history more than anything else.
 
-Finally - HistoryFam is currently a work in progress. The software cannot yet be utilized at this time, but Its hoped 
+Finally - FamilyTribute is currently a work in progress. The software cannot yet be utilized at this time, but Its hoped 
 that it can be shared very soon...

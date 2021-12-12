@@ -5,7 +5,7 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'HistoryFam',
+    'siteName' => 'FamilyTribute',
     'siteDescription' => 'Add your deceased family\'s stories and pictures to a place you can sort, connect and share.',
     'siteKeywords' => 'obituaries,history,pictures,stories,family history',
 

@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://historyfam.com',
+    'baseUrl' => 'https://famialytribute.org',
     'production' => true,
 ];
