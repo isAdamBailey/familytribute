@@ -44,7 +44,7 @@
         <header class="flex items-center shadow bg-white border-b h-24 mb-8 py-4" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
-                    <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
+                    <a href="{{ $page->baseUrl ?: '/' }}" title="{{ $page->siteName }} home" class="inline-flex items-center">
                         <img class="w-20 mr-3" src="/assets/img/undraw_appreciation_re_p6rl.svg" alt="{{ $page->siteName }} logo" />
 
                         <h1 class="text-2xl md:text-4xl text-purple-900 font-semibold hover:text-purple-600 my-0 pr-4">{{ $page->siteName }}</h1>
