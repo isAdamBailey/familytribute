@@ -9,9 +9,12 @@
     "devDependencies": {
         "laravel-mix": "^6.0.11",
         "laravel-mix-jigsaw": "^1.5.0",
-        "postcss": "^8.2.4",
+        "postcss": "^8.4.5",
         "sass": "^1.32.5",
         "sass-loader": "^10.1.1",
-        "tailwindcss": "^1.9.6"
+        "tailwindcss": "^3.0.1"
+    },
+    "dependencies": {
+        "autoprefixer": "^10.4.0"
     }
 }

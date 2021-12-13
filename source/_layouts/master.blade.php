@@ -11,7 +11,7 @@
         <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}"/>
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
-        <meta property="og:image" content="/assets/img/undraw_add_information_j2wg.svg"/>
+        <meta property="og:image" content="/assets/img/undraw_appreciation_re_p6rl.svg"/>
         <meta property="og:type" content="website"/>
 
         <meta name="twitter:image:alt" content="{{ $page->siteName }}">
@@ -45,7 +45,7 @@
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <img class="w-20 mr-3" src="/assets/img/undraw_picture_k-52-w.svg" alt="{{ $page->siteName }} logo" />
+                        <img class="w-20 mr-3" src="/assets/img/undraw_appreciation_re_p6rl.svg" alt="{{ $page->siteName }} logo" />
 
                         <h1 class="text-2xl md:text-4xl text-purple-900 font-semibold hover:text-purple-600 my-0 pr-4">{{ $page->siteName }}</h1>
                     </a>
