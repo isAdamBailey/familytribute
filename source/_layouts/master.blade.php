@@ -25,14 +25,14 @@
         @stack('meta')
 
         @if ($page->production)
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-FN16XLK1YY"></script>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-52T72BYB4N"></script>
             <script>
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
 
-                gtag('config', 'G-FN16XLK1YY');
+                gtag('config', 'G-52T72BYB4N');
             </script>
         @endif
 
