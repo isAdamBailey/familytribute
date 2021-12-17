@@ -8,8 +8,8 @@ section: content
 # Welcome!
 
 When I walked into that old museum and saw those cheaply-bound books full of family stories that had been 
-typed 20 years ago, then photocopied hundreds of times in order to share with aunts and uncles, I knew
-there had to be a better way.
+typed 50 years ago, then photocopied hundreds of times over the years in order to share with aunts and uncles, I knew
+there had to be a better way to make this information more accessible.
 
 ## Sharing who you are honoring
 
@@ -29,13 +29,10 @@ corrections themselves.
 
 From within the FamilyTribute dashboard, you can add new pictures, stories, and obituaries. Add as many as you want.
 You can link the pictures and stories right to a person with an obituary. Link as many people as you want in one
-picture, it will show for all their "pages".
+picture.
 
 ## Thanks for reading!
 I started building family history websites when one of my Grandfathers was growing old. I was also learning
 how to write software at the time, and used sharing the history as means to display open-source work in order
-to get a job. I created a few variations of the Hansen History website (linked on the sidebar).
+to get a job.
 This is a work of honor and love for history more than anything else.
-
-Finally - FamilyTribute is currently a work in progress. The software cannot yet be utilized at this time, but Its hoped 
-that it can be shared very soon...

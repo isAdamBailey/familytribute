@@ -3,8 +3,11 @@
 return [
     'Welcome' => [
         'url' => 'docs/welcome',
+    ],
+    'Current FamilyTributes' => [
+        'url' => 'docs/tributes',
         'children' => [
-//            'Hansen History Website' => 'https://hansenhistory.adambailey.io',
+            'Hansen FamilyTribute' => ['url' => 'https://hansen.familytribute.org/'],
         ],
     ]
 ];
