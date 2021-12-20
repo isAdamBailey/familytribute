@@ -22,21 +22,26 @@
         <link rel="home" href="{{ $page->baseUrl }}">
         <link rel="icon" href="/favicon.ico">
 
-        @stack('meta')
+    @stack('meta')
 
-        @if ($page->production)
-            <!-- Global site tag (gtag.js) - Google Analytics -->
+    @if ($page->production)
+        <!-- Global site tag (gtag.js) - Google Analytics -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-52T72BYB4N"></script>
             <script>
                 window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
+
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+
                 gtag('js', new Date());
 
                 gtag('config', 'G-52T72BYB4N');
             </script>
         @endif
 
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i"
+              rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
@@ -44,8 +49,10 @@
         <header class="flex items-center shadow bg-white border-b h-24 mb-8 py-4" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
-                    <a href="{{ $page->baseUrl ?: '/' }}" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <img class="w-20 mr-3" src="/assets/img/undraw_appreciation_re_p6rl.svg" alt="{{ $page->siteName }} logo" />
+                    <a href="{{ $page->baseUrl ?: '/' }}" title="{{ $page->siteName }} home"
+                       class="inline-flex items-center">
+                        <img class="w-20 mr-3" src="/assets/img/undraw_appreciation_re_p6rl.svg"
+                             alt="{{ $page->siteName }} logo"/>
 
                         <h1 class="text-2xl md:text-4xl text-purple-900 font-semibold hover:text-purple-600 my-0 pr-4">{{ $page->siteName }}</h1>
                     </a>
@@ -64,8 +71,50 @@
         @stack('scripts')
 
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
+            <div class="flex justify-center mb-8">
+                <div class="flex">
+                    <a class="pr-8"
+                       href="https://www.facebook.com/FamilyTribute1"
+                       aria-label="Visit Us Facebook!"
+                       title="Visit Us Facebook!"
+                       target="_blank"
+                       rel="noreferrer"
+                    >
+                        <svg class="block"
+                             fill="currentColor"
+                             role="img"
+                             aria-hidden="true"
+                             width="27"
+                             height="27"
+                        >
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xlink:href="/assets/img/icons.svg#icon-facebook"
+                            />
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/FamilyTribute"
+                       aria-label="Visit Us Twitter!"
+                       title="Visit Us Twitter!"
+                       target="_blank"
+                       rel="noreferrer"
+                    >
+                        <svg class="block"
+                             fill="currentColor"
+                             role="img"
+                             aria-hidden="true"
+                             width="27"
+                             height="27"
+                        >
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xlink:href="/assets/img/icons.svg#icon-twitter"
+                            />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
             <ul class="flex flex-col md:flex-row justify-center">
-                <li class="md:mr-2">
+                <li>
                     &copy; <a href="https://adambailey.io" title="Adam Bailey's website">Adam Bailey</a> {{ date('Y') }}
                 </li>
             </ul>
