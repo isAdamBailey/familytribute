@@ -17,22 +17,29 @@ We love being able to share memories of those who have passed, on their birthday
 But sometimes it's too hard to take a picture of their obituary with your phone. Or the newspaper website
 that it used to be on, is no longer working, or is now behind a paywall.
 
-There are no ads, there is no paywall. you can link your friends on social media right to a url with 
-your loved-ones name. The page includes an obituary, and any pictures and stories that may be
-connected to them in the site.
+You can share your family history, whether it be a picture, a story or an obituary, for all your 
+friends to see. You can even email a link to friends not on social media!
 
 ## Contribute together
-
-Sometimes two individuals have very different memories of how something happened. Maybe some things need to get 
-"worked out" once you've shared details about a relative. That's great! Let them register to the site and make the 
-corrections themselves. 
 
 From within the FamilyTribute dashboard, you can add new pictures, stories, and obituaries. Add as many as you want.
 You can link the pictures and stories right to a person with an obituary. Link as many people as you want in one
 picture.
 
+Maybe some things need to get worked out once you've shared details about a relative. That's great! 
+Let them register to the site and make the corrections themselves.
+
+## Privacy
+
+Once you are registered to your family's site, you may add pictures and stories only viewable by other 
+registered members. You may also receive emails to remind you of notable dates from the site.
+
+You may choose two-factor authentication for added security if you wish!
+
+You can delete your account at any time.
+
 ## Thanks for reading!
-I started building family history websites when one of my Grandfathers was growing old. I was also learning
-how to write software at the time, and used sharing the history as means to display open-source work in order
-to get a job.
+When my Grandfather was growing old, I was hearing and seeing a lot of my family's history. 
+I was also learning how to write software at the time, and used sharing the history as means to display open-source work.
+
 This is a work of honor and love for history more than anything else.

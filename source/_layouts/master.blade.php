@@ -11,9 +11,10 @@
         <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}"/>
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
-        <meta property="og:image" content="/assets/img/undraw_appreciation_re_p6rl.svg"/>
+        <meta property="og:image" content="/assets/img/social-image.png"/>
         <meta property="og:type" content="website"/>
 
+        <meta name="twitter:image" content="/assets/img/social-image.png">
         <meta name="twitter:image:alt" content="{{ $page->siteName }}">
         <meta name="twitter:card" content="summary_large_image">
 

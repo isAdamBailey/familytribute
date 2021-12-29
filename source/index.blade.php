@@ -29,6 +29,7 @@
             <h3 class="text-2xl text-purple-900 mb-0">Your prized <br>family pictures</h3>
 
             <p>Don't let your oldest family photos remain hidden in your grandma's old shoebox!</p>
+            <p>Put them where they can be admired by all!</p>
         </div>
 
         <div class="mb-8 mx-3 px-2 md:w-1/3">
@@ -37,6 +38,7 @@
             <h3 class="text-2xl text-purple-900 mb-0">Share <br>your families stories</h3>
 
             <p>Free the memories of your family's past from the clutches of a photocopied scrapbook.</p>
+            <p>Share them with your friends on Facebook or Twitter.</p>
         </div>
 
         <div class="mb-8 mx-3 px-2 md:w-1/3">
@@ -45,6 +47,7 @@
             <h3 class="text-2xl text-purple-900 mb-0">Contribute <br>as a team.</h3>
 
             <p>Make sure key people have access to the history.</p>
+            <p>Work together to narrow down all the details!</p>
         </div>
     </div>
 </section>
