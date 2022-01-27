@@ -17,13 +17,13 @@
             </div>
         </div>
 
-        <img src="/assets/img/undraw_add_information_j2wg.svg" alt="{{ $page->siteName }} large logo" class="w-full md:w-1/2 mx-auto mb-6 lg:mb-0 ">
+        <img src="/assets/images/familytribute.png" alt="{{ $page->siteName }} large logo" class="w-full md:w-1/2 mx-auto mb-6 lg:mb-0 rounded-lg">
     </div>
 
     <hr class="block my-8 border lg:hidden">
 
     <div class="md:flex -mx-2 -mx-4">
-        <div class="mx-3 px-2 md:w-1/3">
+        <div class="mb-8 mx-3 p-5 md:w-1/3 bg-white rounded-lg">
             <img src="/assets/img/undraw_photos_re_pvh3.svg" class="w-1/2" alt="pictures icon">
 
             <h3 class="text-2xl text-purple-900 mb-0">Your prized <br>family pictures</h3>
@@ -32,7 +32,7 @@
             <p>Put them where they can be admired by all!</p>
         </div>
 
-        <div class="mb-8 mx-3 px-2 md:w-1/3">
+        <div class="mb-8 mx-3 p-5 md:w-1/3 bg-white rounded-lg">
             <img src="/assets/img/undraw_book_lover_re_rwjy.svg" class="w-1/2" alt="stories icon">
 
             <h3 class="text-2xl text-purple-900 mb-0">Share <br>your families stories</h3>
@@ -41,7 +41,7 @@
             <p>Share them with your friends on Facebook or Twitter.</p>
         </div>
 
-        <div class="mb-8 mx-3 px-2 md:w-1/3">
+        <div class="mb-8 mx-3 p-5 md:w-1/3 bg-white rounded-lg">
             <img src="/assets/img/undraw_engineering_team_u99p.svg" class="w-1/2" alt="team icon">
 
             <h3 class="text-2xl text-purple-900 mb-0">Contribute <br>as a team.</h3>

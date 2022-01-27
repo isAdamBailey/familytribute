@@ -11,6 +11,8 @@ When I walked into that old museum and saw those cheaply-bound books full of fam
 typed 50 years ago, then photocopied hundreds of times over the years in order to share with aunts and uncles, I knew
 there had to be a better way to make this information more accessible.
 
+Let's make it easier to find your family online.
+
 ## Sharing who you are honoring
 
 We love being able to share memories of those who have passed, on their birthdays, anniversaries, etc.
