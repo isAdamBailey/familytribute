@@ -8,6 +8,7 @@ return [
         'url' => 'docs/tributes',
         'children' => [
             'Hansen FamilyTribute' => ['url' => 'https://hansen.familytribute.org/'],
+            'Bailey FamilyTribute' => ['url' => 'https://bailey.familytribute.org/'],
         ],
     ]
 ];
